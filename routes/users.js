@@ -1,4 +1,3 @@
-const { response } = require('../app');
 const bcrypt = require('bcrypt');
 const db = require('../db');
 const USERNAME_REGEX = /^[a-z0-9]{4,12}$/;
