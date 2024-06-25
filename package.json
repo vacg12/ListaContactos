@@ -5,7 +5,8 @@
   "scripts": {
     "test": "jest --verbose --runInBand --forceExit",
     "dev": "nodemon index.js",
-    "create-tables": "node db/createTables.js"
+    "create-tables": "node db/createTables.js",
+    "lint": "eslint './**/*.js'"
   },
   "keywords": [],
   "author": "",
